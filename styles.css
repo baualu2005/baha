@@ -1,0 +1,529 @@
+body,
+html {
+    width: 100%;
+	height: 100%;
+}
+
+body, p {
+	color: #555; 
+	font: 400 1rem/1.625rem "Open Sans", sans-serif;;
+}
+
+.p-large {
+	font: 400 1.125rem/1.75rem "Open Sans", sans-serif;
+}
+
+h1 {
+	color: #333;
+	font: 700 2.5rem/3.125rem "Open Sans", sans-serif;
+	letter-spacing: -0.2px;
+}
+
+h3 {
+	color: #333;
+	font: 700 1.625rem/2.125rem "Open Sans", sans-serif;
+	letter-spacing: -0.2px;
+}
+
+h4 {
+	color: #333;
+	font: 700 1.375rem/1.75rem "Open Sans", sans-serif;
+	letter-spacing: -0.1px;
+}
+
+.testimonial-text {
+	font: italic 400 1rem/1.625rem "Open Sans", sans-serif;
+}
+
+.testimonial-author {
+	font: 700 1rem/1.625rem "Open Sans", sans-serif;
+	letter-spacing: -0.1px;
+}
+
+
+.btn-solid-reg {
+	display: inline-block;
+	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+	border: 0.125rem solid #5f4dee;
+	border-radius: 2rem;
+	background-color: #5f4dee;
+	color: #fff;
+	font: 700 0.875rem/0 "Open Sans", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.btn-solid-reg:hover {
+	background-color: transparent;
+	color: #5f4dee;
+	text-decoration: none;
+}
+/* bacr heder media */
+.navbar-custom {
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+	font: 700 0.875rem/0.875rem "Open Sans", sans-serif;
+	transition: all 0.2s;
+}
+.navbar-custom .container {
+	max-width: 87.5rem;
+}
+.navbar-custom .navbar-toggler img {
+	width: 20px;
+}
+
+.navbar-custom .navbar-brand.logo-image img {
+    width: 300px;
+	height: 40px;
+}
+
+.navbar-custom .navbar-nav {
+	margin-top: 0.75rem;
+	margin-bottom: 0.5rem;
+}
+
+.navbar-custom .nav-item .nav-link {
+	color: #000000;
+	opacity: 0.8;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+.header {
+	/* margin-top: 60px; */
+	background: url(/images/Rectangle\ 2425\ \(2\).png) no-repeat;
+	background-size: 100%;
+}
+
+.header .header-content {
+	padding-top: 8rem;
+	padding-bottom: 4rem;
+}
+
+.header .text-container h1 {
+	margin-bottom: 1rem;
+	color: #fff;
+	font-size: 50px;
+	width: 800px;
+}
+
+.header .p-large {
+	margin-bottom: 2rem;
+	color: #f3f7fd;
+	width: 800px;
+}
+
+.cards-1 {
+	padding-top: 3.25rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+.cards-1 .card {
+	max-width: 100px;
+	margin-bottom: 3.5rem;
+	padding: 0;
+	border: none;
+}
+
+.cards-1 .card-image img{
+	max-width: 600px;
+	margin-bottom: 2rem;
+
+}
+
+.cards-1 .card-title {
+	margin-bottom: 0.5rem;
+}
+
+.cards-1 .card-body {
+	padding: 0;
+}
+
+.tabs {
+	padding-top: 8rem;
+	padding-bottom: 8.125rem;
+}
+.tabs .nav-tabs {
+
+	display: block;
+	margin-bottom: 2.25rem;
+	border-bottom: none;
+}
+
+.tabs .nav-item{
+	border: solid 1px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+.tabs .nav-link {
+	width: 150px;
+	height: 40px;
+	padding: 0.375rem 1rem 0.375rem 1rem;
+	border: none;
+	color: #000000;
+	font-weight: 700;
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+.tabs .nav-link p:hover,
+.tabs .nav-link.active {
+	background: transparent;
+	color: #ffffff;
+}
+
+.tabs .nav-link .fas {
+	margin-right: 0.625rem;
+}
+
+.tabs .image-container {
+	padding-left: 20px;
+	width: 300px;
+	margin-bottom: 2.75rem;
+}
+
+.slider-2 {
+	padding-top: 2.75rem;
+	padding-bottom: 4rem;
+}
+
+.slider-2 .slider-container {
+	position: relative;
+	
+}
+
+.slider-2 .swiper-container {
+	position: static;
+	width: 100%;
+	text-align: center;
+}
+
+.slider-2 .image-wrapper {
+	width: 6rem;
+	margin-right: auto;
+	margin-bottom: 1rem;
+	margin-left: auto;
+}
+.slider-2 .text-wrapper{
+	padding-left: 130px;
+	width: 700px;
+}
+
+.slider-2 .slider-container .image-wrapper img {
+	width: 300px;
+}
+
+.slider-2 .testimonial-text {
+	margin-bottom: 0.5rem;
+}
+
+.slider-2 .testimonial-author {
+	color: #333;
+}
+
+
+
+.footer {
+	padding-top: 3rem;
+	padding-bottom: 0.5rem;
+	background-color: #CACACA;
+	
+}
+
+.footer .list-unstyled,
+.footer p {
+	color: #000000;
+	padding-top: 15px;
+	
+}
+@media (min-width: 425px) {
+	.navbar-custom .navbar-brand.logo-image img {
+		width: 150px;
+		height: 30px;
+	}
+	.header{
+		margin-top: 55px;
+	}
+	.header .header-content{
+		padding-top: 2rem;
+	}
+	.header .text-container{
+		width: 400px;
+	}
+	.header .text-container h1 {
+		line-height: 25px;
+		font-size: 20px;
+		width: 400px;
+	}
+	.header .text-container p {
+		line-height: 20px;
+		font-size: 15px;
+		width: 400px;
+	}
+	.tabs{
+		padding-top: 0rem;
+	}
+	.tabs .image-container {
+		padding-left: 20px;
+		width: 243px;
+		margin-bottom: 2.75rem;
+	}
+	.cards-1 .card-body{
+		width: 400px;
+	}
+
+	.cards-1 .card-image img{
+		max-width: 400px;
+	}
+
+	.header-frame {
+		height: 5.5rem;
+	}
+
+	.slider-2 .image-wrapper{
+		padding-right: 300px;
+	}
+	.slider-2 .text-wrapper{
+		width: 310px;
+		padding-left: 20px;
+	}
+
+@media (min-width: 548px) {
+	.tabs{
+		padding-top: 3rem;
+	}
+	.header .text-container h1 {
+		line-height: 30px;
+		font-size: 25px;
+		width: 500px;
+	}
+	.header .text-container p {
+		padding-top: 20px;
+		line-height: 20px;
+		font-size: 15px;
+		width: 500px;
+	}
+}
+
+@media (min-width: 768px) {
+	.header .text-container h1 {
+		line-height: 40px;
+		font-size: 30px;
+		width: 700px;
+	}
+	.header .text-container p {
+		font-size: 18px;
+		width: 700px;
+	}
+	.tabs .image-container img{
+		max-width: 300px;
+	}
+	.cards-1 .card{
+		padding-left: 150px;
+	}
+	.slider-2 .image-wrapper{
+		padding-right: 280px;
+	}
+	.slider-2 .text-wrapper{
+		width: 600px;
+		padding-left:120px;
+	}
+}
+@media (min-width: 992px) {
+	.navbar-custom {
+		padding: 2.125rem 1.5rem 2.125rem 2rem;
+        background: transparent;
+		box-shadow: none;
+	}
+
+	.navbar-custom .navbar-nav {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.navbar-custom .nav-item .nav-link {
+		padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+	}
+	
+	.navbar-custom .nav-item .nav-link:hover,
+	.navbar-custom .nav-item .nav-link.active {
+		opacity: 1;
+	}
+
+	.navbar-custom.top-nav-collapse {
+        padding: 0.5rem 1.5rem 0.5rem 2rem;
+		background-color: #ffffff;
+		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+	}
+
+	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
+	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
+		color: #000000;
+	}
+
+
+	.navbar-custom .nav-item .btn-outline-sm {
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-left: 1rem;
+	}
+
+	.p-heading {
+		width: 65%;
+	}
+
+	.h2-heading {
+		width: 60%;
+	}
+
+	.header .header-content {
+		text-align: left;
+	}
+
+	.header-frame {
+		height: 8rem;
+	}
+
+	.cards-1 .card {
+		display: inline-block;
+		width: 17rem;
+		max-width: 100%;
+		margin-right: 400px;
+		vertical-align: top;
+	}
+
+	.cards-1 .card-image {
+		width: 9rem;
+	}
+
+	.tabs .nav-tabs {
+		justify-content: center;
+		margin-bottom: 2.75rem;
+	} 
+
+	.tabs .nav-link:hover,
+	.tabs .nav-link.active p{
+		color: #fff;
+	}
+	.tabs .nav-link:hover,
+	.tabs .nav-link.active {
+		background: #304647;
+		border-radius: 9px;
+	}
+
+	.tabs .image-container {
+		margin-bottom: 0;
+	}
+
+	.lightbox-basic {
+		max-width: 62.5rem;
+		padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+	}
+
+	.lightbox-basic .image-container {
+		max-width: 100%;
+		margin-right: 2rem;
+		margin-bottom: 0;
+		margin-left: 0.5rem;
+	}
+	
+	.lightbox-basic h3 {
+		margin-top: 0.5rem;
+	}
+
+	.slider-2 .swiper-container {
+		width: 92%;
+		text-align: left;
+	}
+
+	.slider-2 .image-wrapper {
+		float: left;
+		width: 10rem;
+		margin-bottom: 0;
+	}
+
+	.slider-2 .text-wrapper {
+		max-width: 100%;
+		margin-top: 1.25rem;
+		margin-left: 13rem;
+	}
+
+	.slider-2 .swiper-button-prev {
+		left: -0.75rem;
+	}
+	
+	.slider-2 .swiper-button-next {
+		right: -0.75rem;
+	}
+
+@media (min-width: 1024px) {
+	.header{
+		margin-top: 0;
+	}
+	.header .header-content{
+		padding-top: 8rem;
+	}
+}
+@media (min-width: 1200px) {
+	.navbar-custom .navbar-brand.logo-image img {
+		width: 200px;
+		height: 40px;
+	}
+	
+	.h2-heading {
+		width: 50%;
+	}
+	.header{
+		margin-top: 0;
+	}
+	.header .header-content {
+		padding-top: 11rem;
+		padding-bottom: 5rem;
+	}
+
+	.header .text-container {
+		margin-top: 5.5rem;
+		margin-right: 0.5rem;
+	}
+
+	.header .text-container h1{
+		line-height: 50px;
+		font-size: 40px;
+	}
+	.header .text-container p{
+		line-height: 30px;
+		font-size: 22px;
+	}
+
+	.header-frame {
+		height: 9.375rem;
+	}
+
+	.cards-1 .card {
+		width: 600px;
+		margin-right: 2rem;
+		margin-left: 2rem;
+	}
+
+	.cards-1 .card-image img {
+		max-width: 600px;
+	}
+
+	.tabs .image-container img {
+		max-width: 300px;
+		margin-right: 1.5rem;
+		margin-left: 1rem;
+	}
+	
+	.tabs .text-container {
+		margin-top: 1.5rem;
+		margin-right: 1rem;
+		margin-left: 1.5rem;
+	}
+}
+}
+}
